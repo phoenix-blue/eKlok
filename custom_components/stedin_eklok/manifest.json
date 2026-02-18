@@ -1,0 +1,11 @@
+{
+  "domain": "stedin_eklok",
+  "name": "Stedin Eklok",
+  "codeowners": ["@phoenix-blue"],
+  "config_flow": true,
+  "documentation": "https://github.com/phoenix-blue/stedin-eklok",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/phoenix-blue/stedin-eklok/issues",
+  "requirements": ["requests>=2.28.0"],
+  "version": "1.0.0"
+}

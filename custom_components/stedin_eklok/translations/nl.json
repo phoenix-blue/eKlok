@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Stedin Eklok instellen",
+        "description": "Deze integratie haalt data op van Stedin Eklok om de beste momenten voor energieverbruik te tonen. Er is geen configuratie nodig.",
+        "data": {}
+      }
+    },
+    "abort": {
+      "already_configured": "Stedin Eklok is al geconfigureerd."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "good_moment": {
+        "name": "Goed Moment"
+      },
+      "current_range": {
+        "name": "Huidige Waarde"
+      },
+      "today_best": {
+        "name": "Beste Moment Vandaag"
+      },
+      "today_average": {
+        "name": "Gemiddelde Vandaag"
+      },
+      "tomorrow_best": {
+        "name": "Beste Moment Morgen"
+      },
+      "tomorrow_average": {
+        "name": "Gemiddelde Morgen"
+      },
+      "hourly_data": {
+        "name": "Uurdata"
+      },
+      "green_count": {
+        "name": "Groene Uren Vandaag"
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Stedin Eklok",
+        "description": "This integration fetches data from Stedin Eklok to show the best moments for energy usage. No configuration needed.",
+        "data": {}
+      }
+    },
+    "abort": {
+      "already_configured": "Stedin Eklok is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "good_moment": {
+        "name": "Good Moment"
+      },
+      "current_range": {
+        "name": "Current Value"
+      },
+      "today_best": {
+        "name": "Best Moment Today"
+      },
+      "today_average": {
+        "name": "Average Today"
+      },
+      "tomorrow_best": {
+        "name": "Best Moment Tomorrow"
+      },
+      "tomorrow_average": {
+        "name": "Average Tomorrow"
+      },
+      "hourly_data": {
+        "name": "Hourly Data"
+      },
+      "green_count": {
+        "name": "Green Hours Today"
+      }
+    }
+  }
+}

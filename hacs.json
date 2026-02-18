@@ -1,0 +1,7 @@
+{
+  "name": "Stedin Eklok",
+  "country": ["NL"],
+  "render_readme": true,
+  "domains": ["sensor"],
+  "homeassistant": "2023.1.0"
+}
